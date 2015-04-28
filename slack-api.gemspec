@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Slack::VERSION
   spec.authors       = ["aki017"]
   spec.email         = ["aki@aki017.info"]
-  spec.summary       = %q{A Ruby wrapper for the Slack API}
-  spec.description   = %q{A Ruby wrapper for the Slack API}
-  spec.homepage      = "https://github.com/aki017/slack-ruby-gem"
+  spec.summary       = %q{A Ruby wrapper for the Slack RTM API}
+  spec.description   = %q{A Ruby wrapper for the Slack RTM API}
+  spec.homepage      = "https://github.com/aki017/slack-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
